@@ -1,39 +1,106 @@
 import React from 'react'
-import { Doughnut } from "react-chartjs-2";
-import {Chart, ArcElement} from 'chart.js'
-Chart.register(ArcElement);
 
 
-function Options(props) {
-    const chartData = {
-        labels:['Presale','Liquidity','Marketing'],
-        datasets: [
-            {
-                data: [33.3, 33.3, 33.3],
-                backgroundColor: ["#ffffff", "#d4d417", "#0fa33e"],
-                hoverBackgroundColor: ["#ffffff", "#d4d417", "#0fa33e"],
-                borderWidth: 1,
-                borderColor:'transparent'
-            }
-        ]
-    }
 
+function Roadmap(props) {
 
     return (
-        <section id='tokenomic' className='w-full mt-10 p-4 text-center'>
-            <h1 className='md:text-6xl font-bold mt-5 text-3xl'>Tokenomic</h1>
-            <div className='w-full lg:flex justify-around items-center p-2'>
-                <div className='md:w-1/3 p-3 md:m-0 m-auto text-white w-2/3'>
-                    <Doughnut data={chartData}/>
-                </div>
-                <div className='md:w-1/3 p-3'>
-                    <h4 className='text-xl mt-2'>Presale : <span className='text-xl'>%33.3</span></h4>
-                    <h4 className='text-xl mt-2 text-green-500'>Liquidity : <span className='text-xl text-white'>%33.3</span></h4>
-                    <h4 className='text-xl mt-2 text-yellow-500'>Marketing : <span className='text-xl text-white'>%33.3</span></h4>
+        <section id='roadmap' className='w-full mt-10 p-4 text-center'>
+            <h1 className='md:text-6xl font-bold mt-5 text-3xl'>Roadmap</h1>
+            <div className="flex flex-col justify-center py-6 lg:py-12">
+                <div className="w-full mx-auto lg:max-w-4xl">
+                    <div className="relative">
+                        <div
+                            className="absolute hidden w-px h-full transform -translate-x-1/2 bg-yellow-600 lg:block left-1/2"></div>
+                        <div className="space-y-12 lg:space-y-8">
+                            <div>
+                                <div className="flex flex-col items-center">
+                                    <div className="flex items-center justify-start w-full mx-auto">
+                                        <div className="w-full lg:w-1/2 lg:pr-8">
+                                            <div className="p-4 rounded  border">
+                                                <b className='text-xl'>Quarter 1</b>
+                                                <ul>
+                                                    <li>Pinksale Presale</li>
+                                                    <li>Pancakeswap Listing</li>
+                                                    <li>Advertising Marketing</li>
+                                                    <li>CMC And Cg Introduction</li>
+                                                    <li>Great Partnership👟👟</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        className="absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-white text-black rounded-full left-1/2 sm:translate-y-0">
+                                        <span className="text-black">1</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="flex flex-col items-center">
+                                    <div className="flex items-center justify-end w-full mx-auto">
+                                        <div className="w-full lg:w-1/2 lg:pl-8">
+                                            <div className="p-4 rounded  border">
+                                                <b className='text-xl'>Quarter 2</b>
+                                                <ul>
+                                                    <li>Application Completion</li>
+                                                    <li>Earn Pedometer Tokens</li>
+                                                    <li>Stock Exchange Listing</li>
+                                                    <li>CMC And Cg Introduction</li>
+                                                    <li>Big Trends👟👟</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        className="absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-white text-black rounded-full left-1/2 sm:translate-y-0">
+                                        <span className="text-black">2</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="flex flex-col items-center">
+                                    <div className="flex items-center justify-start w-full mx-auto">
+                                        <div className="w-full lg:w-1/2 lg:pr-8">
+                                            <div className="p-4 rounded  border">
+                                                <b className='text-xl'>Quarter 3</b>
+                                                <ul>
+                                                    <li>Application Great Partnership</li>
+                                                    <li>Big Screen Ads</li>
+                                                    <li>Asian Marketing</li>
+                                                    <li>Middle East Marketing</li>
+                                                    <li>Own Shoe Product👟👟</li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        className="absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-white text-black rounded-full left-1/2 sm:translate-y-0">
+                                        <span className="text-black">3</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div>
+                                <div className="flex flex-col items-center">
+                                    <div className="flex items-center justify-end w-full mx-auto">
+                                        <div className="w-full lg:w-1/2 lg:pl-8">
+                                            <div className="p-4 rounded border">
+                                                <b className='text-xl'>Quarter 4</b>
+                                                <p>⏳</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div
+                                        className="absolute flex items-center justify-center w-8 h-8 transform -translate-x-1/2 -translate-y-4 bg-white text-black rounded-full left-1/2 sm:translate-y-0">
+                                        <span className="text-black">4</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     );
 }
 
-export default Options;
+export default Roadmap;

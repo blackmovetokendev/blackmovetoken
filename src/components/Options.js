@@ -1,23 +1,28 @@
 import React from 'react';
-import bannerImage from '../assets/img/logo2.JPG'
-import {useNavigate} from 'react-router-dom'
+import friendImage from '../assets/img/friends.png'
+import soloImage from '../assets/img/solo.jpg'
 
-function Banner(props) {
-    const navigate = useNavigate()
+
+function Options(props) {
 
     return (
-        <section id='home' className='w-full mt-10 p-4 text-center lg:flex lg:justify-center lg:gap-x-8'>
-            <div className='w-2/4 m-auto'>
-                <h1 className='lg:text-6xl font-bold mt-5 text-3xl'>About Project</h1>
-                <p className='m-auto mt-11 text-2xl'>
-                    👟Black Movement is a Walk and Win Project. We have produced a project that can win awards by walking yourself with the application. We will come to the agenda with the best phenomenon advertisements with the program that will become operational after the pre-sale is over.👟
-                </p>
-                <p className='m-auto mt-11 text-2xl'>
-                    👟👟Application Usage It will come in a short time. We present a project where you will win big prizes by walking. All the details, down to the smallest detail, are underway.👟👟
-                </p>
+        <section id='options' className='w-full mt-10 p-4 text-center'>
+            <h1 className='md:text-6xl font-bold mt-5 text-3xl'>Options</h1>
+            <div className='w-full lg:flex justify-around items-center p-2'>
+                <div className='md:w-1/3 p-3 md:m-0 m-auto mb-7 md:mb-0'>
+                    <img src={soloImage} alt='' className='w-full rounded'/>
+                    <h4 className='text-3xl mt-2'>Solo</h4>
+                    <p>You can run alone if you wish. You can compete in Challenges</p>
+                </div>
+                <span className='text-3xl'>&</span>
+                <div className='md:w-1/3 p-3 mt-7 md:mt-0'>
+                    <img src={friendImage} alt='' className='w-full rounded'/>
+                    <h4 className='text-3xl mt-2'>Friends</h4>
+                    <p>If you wish, you can run with your friends and perform challenges together.</p>
+                </div>
             </div>
         </section>
     );
 }
 
-export default Banner;
+export default Options;

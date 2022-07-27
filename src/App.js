@@ -9,6 +9,9 @@ import Footer from './components/Footer'
 import binance from './assets/img/binance.png'
 import cmc from './assets/img/coinmarket.png'
 import pnck from './assets/img/pancakeswap.png'
+import Fab from '@mui/material/Fab';
+import {AiOutlineTwitter} from 'react-icons/ai'
+import {FaTelegramPlane} from 'react-icons/fa'
 
 const bg = {
   background:`url(${bgImage})`
@@ -17,6 +20,16 @@ const bg = {
 function App() {
   return (
     <div className="w-full h-full md:bg-cover bg-auto" style={bg}>
+      <Fab size="small" className='fixed bottom-5 right-5'>
+       <a href='https://twitter.com/biackmove1?s=21&t=OOMp86bwwB2FvsgIrU-cfA'>
+        <AiOutlineTwitter className='text-2xl'/>
+       </a>
+      </Fab>
+      <Fab size="small" className='fixed bottom-20 right-5'>
+       <a href='https://t.me/BlackMove'>
+        <FaTelegramPlane className='text-2xl'/>
+       </a>
+      </Fab>
       <Navbar/>
       <Banner/>
       <About/>

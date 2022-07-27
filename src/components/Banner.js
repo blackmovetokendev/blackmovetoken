@@ -21,7 +21,7 @@ function Banner(props) {
                     <img src={appStore} className='' alt=''/>
                 </button>
             </div>
-            <img src={bannerImage} className='lg:w-1/3 lg:h-1/3 w-1/2  m-auto lg:mt-0 mt-8' alt=''/>
+            <img src={bannerImage} className='hidden lg:block lg:w-1/3 lg:h-1/3 w-1/2  m-auto lg:mt-0 mt-8' alt=''/>
         </section>
     );
 }

@@ -22,6 +22,8 @@ function Footer(props) {
                 <ul>
                     <li><a href='/' className='hover:underline underline-offset-4'>BSC SCAN</a></li>
                     <li><a href='/' className='hover:underline underline-offset-4'>PANCAKE SWAP</a></li>
+                    <li><a href='https://twitter.com/biackmove1?s=21&t=OOMp86bwwB2FvsgIrU-cfA' className='hover:underline underline-offset-4'>TWITTER</a></li>
+                    <li><a href='https://t.me/BlackMove' className='hover:underline underline-offset-4'>TELEGRAM</a></li>
                 </ul>
             </div>
         </footer>

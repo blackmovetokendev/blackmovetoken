@@ -8,7 +8,10 @@ module.exports = {
     extend: {
       backgroundSize:{
         'move': '100%',
-      }
+      },
+      fontFamily: {
+        'roboto': ['Roboto', 'sans-serif'],
+      },
     },
   },
   plugins: [],

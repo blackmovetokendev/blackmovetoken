@@ -17,7 +17,7 @@ function Roadmap(props) {
                                 <div className="flex flex-col items-center">
                                     <div className="flex items-center justify-start w-full mx-auto">
                                         <div className="w-full lg:w-1/2 lg:pr-8">
-                                            <div className="p-4 rounded  border">
+                                            <div className="p-4 rounded  border moved">
                                                 <b className='text-xl'>Quarter 1</b>
                                                 <ul>
                                                     <li>Pinksale Presale</li>
@@ -39,7 +39,7 @@ function Roadmap(props) {
                                 <div className="flex flex-col items-center">
                                     <div className="flex items-center justify-end w-full mx-auto">
                                         <div className="w-full lg:w-1/2 lg:pl-8">
-                                            <div className="p-4 rounded  border">
+                                            <div className="p-4 rounded  border moved">
                                                 <b className='text-xl'>Quarter 2</b>
                                                 <ul>
                                                     <li>Application Completion</li>
@@ -61,7 +61,7 @@ function Roadmap(props) {
                                 <div className="flex flex-col items-center">
                                     <div className="flex items-center justify-start w-full mx-auto">
                                         <div className="w-full lg:w-1/2 lg:pr-8">
-                                            <div className="p-4 rounded  border">
+                                            <div className="p-4 rounded  border moved">
                                                 <b className='text-xl'>Quarter 3</b>
                                                 <ul>
                                                     <li>Application Great Partnership</li>
@@ -83,7 +83,7 @@ function Roadmap(props) {
                                 <div className="flex flex-col items-center">
                                     <div className="flex items-center justify-end w-full mx-auto">
                                         <div className="w-full lg:w-1/2 lg:pl-8">
-                                            <div className="p-4 rounded border">
+                                            <div className="p-4 rounded border moved">
                                                 <b className='text-xl'>Quarter 4</b>
                                                 <p>⏳</p>
                                             </div>

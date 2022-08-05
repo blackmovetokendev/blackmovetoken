@@ -35,7 +35,7 @@ function App() {
       <Banner/>
       <About/>
       <Options/>
-        <Tokenomic/>
+        {/* <Tokenomic/> */}
         <Roadmap/>
         <section className='w-full lg:flex lg:justify-around items-center'>
             <img src={cmc} alt='' className='w-64 m-auto mt-3'/>

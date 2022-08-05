@@ -14,7 +14,7 @@ function Navbar(props) {
                     <a href='#roadmap' className='hover:underline underline-offset-4'>Roadmap</a>
                     <a href='#whitepaper' className='hover:underline underline-offset-4'>Whitepaper</a>
             </nav>
-            <a href='/' className='bg-white text-black rounded w-32 hover:bg-gray-900 hover:text-white p-2 uppercase text-center'>
+            <a href='https://www.pinksale.finance/launchpad/0x69417002Ba820adD596F640EB037252Ce5AeFe3C?chain=BSC' className='bg-white text-black rounded w-32 hover:bg-gray-900 hover:text-white p-2 uppercase text-center'>
               buy
             </a>
         </nav>
